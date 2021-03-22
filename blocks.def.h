@@ -3,9 +3,9 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
     {"",        "~/bin/dwm-cpu",                                             10,             1},
     {"Mem: ",   "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",   30,             0},
+    {"",        "~/bin/dwm-upgrades",                                       600,             0},
+    {"",        "~/bin/dwm-volume",                                           0,             2},
     {"",        "~/bin/dwm-weather",                                        600,             0},
-    {"",        "~/bin/upgrades.sh",                                        600,             0},
-    {"",        "~/bin/sb-volume",                                            0,             2},
     {"",        "date '+%a %b %d %I:%M%p'",                                   5,             0},
 };
 
