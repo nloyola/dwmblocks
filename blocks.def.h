@@ -5,7 +5,7 @@ static const Block blocks[] = {
     {"Mem: ",   "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",   30,             0},
     {"",        "~/bin/dwm-upgrades",                                       600,             0},
     {"",        "~/bin/dwm-volume",                                           0,             2},
-    {"",        "~/bin/dwm-weather",                                        600,             0},
+    {"",        "~/bin/dwm-weather",                                        600,             3},
     {"",        "date '+%a %b %d %I:%M%p'",                                   5,             0},
 };
 
